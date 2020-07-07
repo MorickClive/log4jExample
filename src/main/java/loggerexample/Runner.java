@@ -11,7 +11,7 @@ public class Runner {
 		// TODO Auto-generated method stub
 		
 		// System.out - avoid, can cause complications with application run!
-		// Use logger instead...
+		// use logger instead...
 		//System.out.println("Hello Project");
 		
 		// Runner should begin before referencing the class - else it may not be registered on the VM
@@ -19,8 +19,6 @@ public class Runner {
 		
 		log.info("Hello Project");
 		log.warn("\t!!!  Sample warning with developer message  !!!");
-		
-		// check your target folder for an output log of the console!!
 	}
 
 }
